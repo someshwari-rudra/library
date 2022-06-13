@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main-bg{
+    min-height: 100vh;
+    width: 100%;
+    background: linear-gradient(120deg, #f9d085, #f3aa21);
+}
+.form-container{
+    background: #fff1f1;
+}
+.alert{
+    display: none !important;
+}
+.alert.show{
+    display: inline;
+}
+.alertype.success{
+    background: #cdffdd;
+}
+.alertype.danger{
+    background: rgb(236, 145, 145);
+}
+
