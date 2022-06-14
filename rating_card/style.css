@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;600&display=swap');
+:root{
+--Orange: hsl(25, 97%, 53%);
+--White: hsl(0, 0%, 100%);
+--Light-Grey: hsl(217, 12%, 63%);
+--Medium-Grey: hsl(216, 12%, 54%);
+--Dark-Blue: hsl(213, 19%, 18%);
+--Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: var(--Very-Dark-Blue);
+    color: var(--Light-Grey);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box-container1{
+    width: 400px;
+    background: var(--Dark-Blue);
+    padding: 20px 30px;
+    border-radius: 20px;
+
+}
+.icon img{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgba(124, 135, 152, 0.2);
+}
+.content h1{
+    margin: 10px 0;
+    font-size:30px;
+    color: var(--White);
+    font-weight: 600;
+}
+.content p{
+    margin: 10px 0px;
+    font-size: 15px;
+}
+.rating-buttons .rating-btn{
+   height: 2.8rem;
+   width: 2.8rem;
+    border-radius: 50%;
+    margin: 10px 10px;
+    color: var(--Medium-Grey);
+    background-color: rgba(124, 135, 152, 0.2);
+    border: none;
+}
+.Submit-btn{
+    background: var(--Orange);
+    border: none;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0px;
+    box-shadow: 10px 1px 10px 1px var(--Dark-Blue);
+    color: var(--White);
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}

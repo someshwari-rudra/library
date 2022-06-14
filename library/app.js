@@ -34,9 +34,6 @@ function addDetails(){
       localStorage.setItem("details", JSON.stringify(detailsObj))
       BookName.value =""
       Author.value =""
-
-      
-
       ShowBookDetails()
       }
     }
@@ -75,5 +72,5 @@ function addDetails(){
             }
         detailsObj.splice(index, 1);
         localStorage.setItem("details", JSON.stringify(detailsObj));
-       ShowBookDetails()
+         ShowBookDetails()
     }
