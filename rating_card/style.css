@@ -25,14 +25,18 @@
     
 }
 .box-container1{
-    width: 400px;
+    width: 420px;
     background: var(--Dark-Blue);
-    padding: 20px 30px;
+    padding: 35px 30px;
     border-radius: 20px;
 
 }
+.box-container1.hide{
+    display: none;
+}
 .icon img{
     padding: 10px;
+    margin: 10px 0px;
     border-radius: 50%;
     background-color: rgba(124, 135, 152, 0.2);
 }
@@ -43,7 +47,7 @@
     font-weight: 600;
 }
 .content p{
-    margin: 10px 0px;
+    margin: 14px 0px;
     font-size: 15px;
 }
 .rating-buttons .rating-btn{
@@ -54,6 +58,13 @@
     color: var(--Medium-Grey);
     background-color: rgba(124, 135, 152, 0.2);
     border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.rating-btn:hover{
+    background: var(--Orange);
+    color: var(--White);
+
 }
 .Submit-btn{
     background: var(--Orange);
@@ -61,9 +72,60 @@
     width: 100%;
     border-radius: 20px;
     padding: 10px;
-    margin: 10px 0px;
+    margin: 15px 0px;
     box-shadow: 10px 1px 10px 1px var(--Dark-Blue);
     color: var(--White);
     text-transform: uppercase;
     letter-spacing: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3 ease;
+}
+.Submit-btn:hover{
+    background: var(--White);
+    color: var(--Orange);
+
+}
+.box-container2{
+    width: 420px;
+    background: var(--Dark-Blue);
+    padding: 20px 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.head_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating{
+    border-radius: 20px;
+    background: rgba(124, 135, 152, 0.2);;
+    margin: 10px 0px;
+    padding: 7px 15px;
+    color: var(--Orange);
+}
+.head_img img{
+    margin: 25px 0px;
+
+}
+.card_footer h1{
+    text-align: center;
+ margin:15px 0px;
+    color: var(--White);
+    font-weight: 400;
+}
+.card_footer p{
+    text-align: center;
+    margin: 10px 0px;
+}
+.box-container2.hide{
+    display: none;
+}
+.rating-btn .active{
+    background: var(--White);
+    color: var(--White);
 }
